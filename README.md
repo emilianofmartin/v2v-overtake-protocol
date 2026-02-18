@@ -183,10 +183,10 @@ Critical feedback is especially valuable.
 
 ## Repository Contents
 
-Specification document  
-Feasibility analysis  
-Message flow diagrams  
-Illustrations  
+- [Protocol Specification (PDF)](spec/protocol.pdf)
+- [Feasibility analysis (XLSX)](docs/feasibility.xlsx)
+- [Concept Illustration](docs/illustration.jpg)
+- [Message flow diagrams (PNG)](docs/messages-flow-diagram.png)    
 
 ---
 
@@ -196,7 +196,12 @@ Open proposal. No restrictions on research or implementation.
 
 ---
 
-## Concept Illustration
+## Message flow diagram (non-normative)
+
+![Concept Illustration](docs/messages-flow-diagram.jpg)
+---
+
+## Concept Illustration (non-normative)
 
 ![Concept Illustration](docs/illustration.jpg)
 
