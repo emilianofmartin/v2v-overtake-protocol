@@ -198,7 +198,7 @@ Open proposal. No restrictions on research or implementation.
 
 ## Message flow diagram (non-normative)
 
-![Concept Illustration](docs/messages-flow-diagram.jpg)
+![Message flow diagram](docs/messages-flow-diagram.png)
 ---
 
 ## Concept Illustration (non-normative)
