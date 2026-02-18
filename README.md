@@ -1,1 +1,210 @@
-# v2v-overtake-protocol
+# Open Vehicle-to-Vehicle Overtake Assistance Protocol
+
+## Overview
+
+This project proposes an open, lightweight Vehicle-to-Vehicle (V2V) communication protocol designed to help drivers safely perform overtaking manoeuvres on two-lane roads.
+
+It allows vehicles to share real-time motion data such as position, speed, and heading, enabling onboard systems to determine whether an overtake can be safely completed before an oncoming vehicle arrives.
+
+The protocol is intentionally simple, bandwidth-efficient, and suitable for global adoption.
+
+This repository contains an open proposal currently in review and development.
+
+Contributions, critiques, and improvements are welcome.
+
+---
+
+## The Problem
+
+Head-on collisions during overtaking manoeuvres remain one of the most severe types of road accidents worldwide.
+
+The fundamental limitation is simple:
+
+Drivers cannot see far enough ahead to make fully informed decisions.
+
+Even in perfect weather and daylight, hills, curves, trucks, and other vehicles obstruct visibility.
+
+Human estimation of distance, speed, and closing time is inherently imprecise.
+
+Existing driver assistance systems rely primarily on onboard sensors such as cameras and radar, which are limited by line-of-sight.
+
+They cannot detect vehicles hidden beyond visual obstacles.
+
+---
+
+## The Missing Piece
+
+The missing capability is cooperation.
+
+If vehicles could communicate their position and motion directly to each other, they would no longer depend solely on line-of-sight.
+
+This protocol enables exactly that.
+
+Vehicles continuously share their motion state using small broadcast messages, allowing each vehicle to build a real-time model of surrounding traffic beyond visual range.
+
+This allows safe overtaking decisions based on actual vehicle data, not guesswork.
+
+---
+
+## What This Protocol Provides
+
+• Real-time vehicle motion awareness beyond visual range  
+• Cooperative overtaking safety assistance  
+• Extremely low bandwidth usage  
+• Fully decentralized operation  
+• No infrastructure dependency  
+• Built-in privacy through temporary anonymous identifiers  
+• Compatibility with emergency vehicle signaling  
+• Support for non-cooperative object reporting  
+
+---
+
+## Emergency Vehicle Awareness
+
+The protocol supports identification of emergency vehicles such as ambulances, police, and fire units.
+
+This enables:
+
+• Increased safety margins during overtaking calculations  
+• Clear driver awareness of approaching emergency vehicles  
+• Improved driver cooperation when yielding  
+
+This capability extends the protocol beyond overtaking assistance into broader cooperative road safety.
+
+---
+
+## Feasibility
+
+One of the primary concerns with any V2V protocol is communication channel saturation.
+
+This protocol was designed from the ground up to minimize bandwidth usage.
+
+Typical transmission rate per vehicle:
+
+~5 kbit/s
+
+Even in dense traffic scenarios with 100 vehicles:
+
+~500 kbit/s total
+
+This is well below the capacity of modern V2V communication technologies such as:
+
+• IEEE 802.11p / ITS-G5  
+• C-V2X sidelink  
+
+Feasibility analysis included in this repository demonstrates that the protocol does not pose a realistic risk of channel saturation.
+
+---
+
+## Privacy
+
+Vehicles use temporary anonymous identifiers (TEMPID).
+
+These identifiers:
+
+• Contain no embedded meaning  
+• Are randomly generated  
+• Change periodically  
+• Cannot be traced back to a specific vehicle  
+
+This prevents long-term tracking while preserving operational functionality.
+
+---
+
+## Current Status
+
+This specification is a proposal.
+
+It is not a finalized standard.
+
+It is intended as a foundation for collaborative development, technical review, and real-world experimentation.
+
+The core communication model, message structure, and feasibility analysis are complete.
+
+Further work may include:
+
+• Security layer definition  
+• Reference implementation  
+• Simulation and validation  
+• Hardware prototyping  
+
+---
+
+## Background
+
+Some of the ideas explored in this proposal originated from earlier personal work on cooperative traffic analysis concepts.
+
+That previous work helped identify both the potential benefits and the practical challenges of sharing vehicle motion data between nearby vehicles.
+
+While that earlier effort was conceptual and not formally published, it provided valuable perspective that influenced the design priorities of this protocol, particularly regarding simplicity, bandwidth efficiency, and decentralized operation.
+
+---
+
+## Why This Matters
+
+This protocol could help reduce one of the most dangerous driving manoeuvres performed daily.
+
+It does not require new infrastructure.
+
+It does not require centralized systems.
+
+It only requires vehicles to cooperate.
+
+---
+
+## Goals
+
+This project aims to:
+
+• Provide an open foundation for cooperative overtaking assistance  
+• Enable technical discussion and review  
+• Encourage experimentation and implementation  
+• Remain open and vendor-neutral  
+
+---
+
+## Call for Contributors
+
+This project is in active conceptual development.
+
+Engineers, researchers, and enthusiasts are welcome to:
+
+• Review the specification  
+• Suggest improvements  
+• Identify edge cases  
+• Implement prototypes  
+• Run simulations  
+
+Critical feedback is especially valuable.
+
+---
+
+## Repository Contents
+
+Specification document  
+Feasibility analysis  
+Message flow diagrams  
+Illustrations  
+
+---
+
+## License
+
+Open proposal. No restrictions on research or implementation.
+
+---
+
+## Concept Illustration
+
+![Concept Illustration](docs/illustration.jpg)
+
+---
+
+## Final Note
+
+This project began with a simple observation:
+
+Many overtaking accidents occur not because drivers act recklessly, but because they lack information.
+
+This protocol aims to provide that information.
+
