@@ -200,6 +200,12 @@ Open proposal. No restrictions on research or implementation.
 
 ---
 
+## License
+
+This work is licensed under the Apache License 2.0. See LICENSE for details.
+
+---
+
 ## Final Note
 
 This project began with a simple observation:
