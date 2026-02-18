@@ -196,9 +196,52 @@ Open proposal. No restrictions on research or implementation.
 
 ---
 
+## Message Flow Overview
+
+The protocol operates using continuous broadcast and fully decentralized decision-making.
+
+**All vehicles**
+
+Continuously broadcast:
+
+• T1 — Static vehicle information  
+• T2 — Dynamic motion state (position, speed, heading)
+
+These messages allow all nearby vehicles to maintain a real-time local model of surrounding traffic.
+
+**Overtaking vehicle**
+
+When the driver intends to overtake, the vehicle:
+
+• Uses received T1 and T2 messages  
+• Computes overtaking feasibility locally  
+• No permission or coordination request is required  
+
+If the overtaking manoeuvre begins, the vehicle broadcasts:
+
+• T3 — Overtake in progress notification
+
+This message informs nearby vehicles of the manoeuvre.
+
+**Other vehicles**
+
+Upon receiving T3:
+
+• Update their prediction models  
+• Increase safety margins  
+• Improve awareness of the ongoing manoeuvre  
+
+No acknowledgement or response is required.
+
+---
+
 ## Message flow diagram (non-normative)
 
 ![Message flow diagram](docs/messages-flow-diagram.png)
+
+This diagram is provided for illustration only.  
+Normative behaviour is defined by the specification document.
+
 ---
 
 ## Concept Illustration (non-normative)
