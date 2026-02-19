@@ -37,34 +37,39 @@ It is intended for technical review, simulation, and prototype implementation.
 Emiliano Martín  
 Independent Researcher  
 Argentina  
-GitHub: https://github.com/emilianofmartin
+GitHub: https://github.com/emilianofmartin 
 Contact: via GitHub Issues
 
 ---
 
 ## How to Cite This Work
 
-If you use this work in research, simulation, publications, or implementations, please cite it as:
+If you use this work in research, simulation, publications, or
+implementations, please cite it as:
 
-Martín, Emiliano F.  
-Open Vehicle-to-Vehicle Overtake Assistance Protocol.  
-Version 0.1.0, February 2026.  
+**Martín, Emiliano F.**\
+*Open Vehicle-to-Vehicle Overtake Assistance Protocol*.\
+Version 0.1.0, February 2026.\
 Available at: https://github.com/emilianofmartin/v2v-overtake-protocol
 
-BibTeX:
+------------------------------------------------------------------------
 
-```bibtex
-@misc{martin2026v2vovertake,
-  author       = {Martín, Emiliano F.},
-  title        = {Open Vehicle-to-Vehicle Overtake Assistance Protocol},
-  year         = {2026},
-  month        = {February},
-  version      = {0.1.0},
-  publisher    = {GitHub},
-  url          = {https://github.com/emilianofmartin/v2v-overtake-protocol}
-}
+### BibTeX Entry
 
---
+Use the following BibTeX reference:
+
+    @misc{martin2026v2vovertake,
+      author       = {Martín, Emiliano F.},
+      title        = {Open Vehicle-to-Vehicle Overtake Assistance Protocol},
+      year         = {2026},
+      month        = {February},
+      version      = {0.1.0},
+      publisher    = {GitHub},
+      url          = {https://github.com/emilianofmartin/v2v-overtake-protocol}
+    }
+
+--- 
+
 ## Specification
 
 Full specification document:
