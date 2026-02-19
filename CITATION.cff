@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Open Vehicle-to-Vehicle Overtake Assistance Protocol"
+message: "If you use this work, please cite it as follows:"
+type: standard
+authors:
+  - family-names: "Martín"
+    given-names: "Emiliano F."
+    affiliation: "Independent Researcher"
+    country: "Argentina"
+version: "0.1.0"
+date-released: 2026-02-01
+license: "Apache-2.0"
+repository-code: "https://github.com/emilianofmartin/v2v-overtake-protocol"
+url: "https://github.com/emilianofmartin/v2v-overtake-protocol"
+abstract: >
+  An open, decentralized Vehicle-to-Vehicle communication protocol proposal
+  designed to assist drivers in safely performing overtaking manoeuvres on
+  two-lane roads through cooperative real-time motion data exchange.
+keywords:
+  - V2V
+  - vehicle communication
+  - overtaking
+  - road safety
+  - protocol
+  - ITS
