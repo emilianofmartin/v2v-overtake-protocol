@@ -248,6 +248,9 @@ Normative behaviour is defined by the specification document.
 
 ![Concept Illustration](docs/illustration.jpg)
 
+This diagram is provided for illustration only.  
+Normative behaviour is defined by the specification document.
+
 ---
 
 ## License
