@@ -227,6 +227,17 @@ This project aims to:
 
 ---
 
+## Intended Audience
+
+This specification is intended for:
+
+- Automotive engineers
+- V2X researchers
+- Embedded systems developers
+- Traffic safety researchers
+
+---
+
 ## Call for Contributors
 
 This project is in active conceptual development.
