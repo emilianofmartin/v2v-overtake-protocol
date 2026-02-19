@@ -2,6 +2,10 @@
 
 # Open Vehicle-to-Vehicle Overtake Assistance Protocol
 
+Specification version: 0.1.0
+
+An open, decentralized protocol proposal for cooperative overtaking safety.
+
 ## Overview
 
 This project proposes an open, lightweight Vehicle-to-Vehicle (V2V) communication protocol designed to help drivers safely perform overtaking manoeuvres on two-lane roads.
@@ -13,6 +17,59 @@ The protocol is intentionally simple, bandwidth-efficient, and suitable for glob
 This repository contains an open proposal currently in review and development.
 
 Contributions, critiques, and improvements are welcome.
+
+---
+## Specification Status
+
+Version: 0.1.0  
+Status: Draft  
+Date: February, 2026  
+This document follows semantic versioning.
+
+This specification is not finalized and may change.
+
+It is intended for technical review, simulation, and prototype implementation.
+
+---
+
+## Author
+
+Emiliano Martín  
+Independent Researcher  
+Argentina  
+GitHub: https://github.com/emilianofmartin
+Contact: via GitHub Issues
+
+---
+
+## How to Cite This Work
+
+If you use this work in research, simulation, publications, or implementations, please cite it as:
+
+Martín, Emiliano F.  
+Open Vehicle-to-Vehicle Overtake Assistance Protocol.  
+Version 0.1.0, February 2026.  
+Available at: https://github.com/emilianofmartin/v2v-overtake-protocol
+
+BibTeX:
+
+```bibtex
+@misc{martin2026v2vovertake,
+  author       = {Martín, Emiliano F.},
+  title        = {Open Vehicle-to-Vehicle Overtake Assistance Protocol},
+  year         = {2026},
+  month        = {February},
+  version      = {0.1.0},
+  publisher    = {GitHub},
+  url          = {https://github.com/emilianofmartin/v2v-overtake-protocol}
+}
+
+--
+## Specification
+
+Full specification document:
+
+[spec/protocol_v0.1.0.pdf](spec/protocol_v0.1.0.pdf)
 
 ---
 
@@ -183,16 +240,10 @@ Critical feedback is especially valuable.
 
 ## Repository Contents
 
-- [Protocol Specification (PDF)](spec/protocol.pdf)
-- [Feasibility analysis (XLSX)](docs/feasibility.xlsx)
+- [Protocol Specification (PDF)](spec/protocol_v0.1.0.pdf)
 - [Concept Illustration](docs/illustration.jpg)
 - [Message flow diagrams (PNG)](docs/messages-flow-diagram.png)    
-
----
-
-## License
-
-Open proposal. No restrictions on research or implementation.
+- [Feasibility analysis (XLSX)](docs/feasibility.xlsx)
 
 ---
 
@@ -255,7 +306,9 @@ Normative behaviour is defined by the specification document.
 
 ## License
 
-This work is licensed under the Apache License 2.0. See LICENSE for details.
+This project is licensed under the Apache License 2.0.
+
+You are free to use, implement, modify, and distribute this work under the terms of that license.
 
 ---
 
