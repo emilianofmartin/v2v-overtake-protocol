@@ -227,14 +227,23 @@ This project aims to:
 
 ---
 
+---
+
 ## Intended Audience
 
-This specification is intended for:
+This specification may be of interest to:
 
-- Automotive engineers
-- V2X researchers
-- Embedded systems developers
-- Traffic safety researchers
+• V2V and ITS engineers  
+• Automotive software developers  
+• Researchers in intelligent transportation systems  
+• Road safety specialists  
+• Embedded systems engineers  
+• Simulation and modeling researchers  
+• Automotive OEM engineers and suppliers  
+
+No prior involvement in this project is required.
+
+Technical review, criticism, and alternative approaches are highly encouraged.
 
 ---
 
