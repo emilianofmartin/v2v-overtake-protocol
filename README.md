@@ -1,4 +1,4 @@
-![Status](https://img.shields.io/badge/status-draft-orange.svg) ![Purpose](https://img.shields.io/badge/purpose-road%20safety-blue.svg) ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![Stage](https://img.shields.io/badge/stage-conceptual-important.svg) ![Seeking Contributors](https://img.shields.io/badge/seeking-contributors-brightgreen.svg)
+![Status](https://img.shields.io/badge/status-draft-orange.svg) ![Purpose](https://img.shields.io/badge/purpose-road%20safety-blue.svg) ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![Stage](https://img.shields.io/badge/stage-conceptual-important.svg) ![Seeking Contributors](https://img.shields.io/badge/seeking-contributors-brightgreen.svg) ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 
 # Open Vehicle-to-Vehicle Overtake Assistance Protocol
 
