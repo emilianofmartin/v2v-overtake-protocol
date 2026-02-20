@@ -74,7 +74,9 @@ Use the following BibTeX reference:
 
 Full specification document:
 
-[spec/protocol_v0.1.0.pdf](spec/protocol_v0.1.0.pdf)
+[Download Specification v0.1.0 (PDF)](https://github.com/emilianofmartin/v2v-overtake-protocol/releases/download/v0.1.0/protocol_v0.1.0.pdf)
+
+(Official frozen version — February 2026)
 
 ---
 
@@ -265,7 +267,7 @@ Critical feedback is especially valuable.
 
 ## Repository Contents
 
-- [Protocol Specification (PDF)](spec/protocol_v0.1.0.pdf)
+- [Protocol Specification v0.1.0 (Official Release PDF)](https://github.com/emilianofmartin/v2v-overtake-protocol/releases/download/v0.1.0/protocol_v0.1.0.pdf)
 - [Concept Illustration](docs/illustration.jpg)
 - [Message flow diagrams (PNG)](docs/messages-flow-diagram.png)    
 - [Feasibility analysis (XLSX)](docs/feasibility.xlsx)
