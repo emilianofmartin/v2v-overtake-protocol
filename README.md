@@ -36,7 +36,7 @@ It is intended for technical review, simulation, and prototype implementation.
 
 Version 0.1.0 is the initial public draft and considered stable for review and experimentation.
 
---
+---
 
 ## Author
 
