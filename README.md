@@ -326,6 +326,14 @@ No acknowledgement or response is required.
 This diagram is provided for illustration only.  
 Normative behaviour is defined by the specification document.
 
+
+### Message Flow Summary
+
+1. All vehicles broadcast T1 and T2 continuously
+2. The overtaking vehicle computes feasibility locally using received data
+3. If overtaking starts, it broadcasts T3 to involved vehicles
+4. Other vehicles update their prediction models
+
 ---
 
 ## Concept Illustration (non-normative)
